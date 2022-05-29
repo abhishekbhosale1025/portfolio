@@ -1,0 +1,92 @@
+#skillpage {
+  height: 120vh;
+  width: 60vw;
+  margin: auto;
+}
+.skills {
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+.skills > div:first-child {
+  margin: auto;
+  margin-top: 100px;
+}
+
+.skills > div:last-child {
+  display: flex;
+  /* grid-template-columns: repeat(4,1fr); */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 40px;
+  /* padding-top: 100px; */
+  /* margin-top: -100px; */
+  margin-bottom: 10px;
+}
+
+.skills > div:last-child > div {
+  border: 1px solid;
+  height: 180px;
+  width: 160px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+/* 
+.skills > div:last-child :hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+  padding: 10px;
+} */
+.h1skills{
+ text-align: center;
+  padding-bottom: 40px;
+  font-weight: 800;
+  color:#4070f4;;
+  text-decoration: underline;
+}
+.skills > div:last-child > div > img {
+  width: 80%;
+  height: 60%;
+  /* padding: 20px; */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.skills > div:last-child > div > h4 {
+  text-align: center;
+  color: black;
+}
+@media all and (max-width: 600px) {
+  #skillpage {
+    /* background-color: lightblue; */
+    height: 400vh;
+    width: 100vw;
+    margin-bottom: 1000px;
+ padding-left: 20%;
+   
+  }
+  .h1skills{
+    text-align: center;
+    margin-left:600px;
+   }
+}
+@media only screen and (max-width: 1000px) {
+  #skillpage {
+
+    height: 160vh;
+    width: 60vw;
+    margin-left: 10%;
+  }
+  .skills > div > h1 {
+    padding-left: 0px;
+  }
+  .h1skills{
+    /* text-align: center; */
+    margin-left: -80px;
+     padding-bottom: 40px
+   }
+}
