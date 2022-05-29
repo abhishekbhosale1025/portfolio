@@ -20,7 +20,7 @@ const ProductList = () => {
        Projects
       </h2>
 
-      {/* ////////////////////////////////         Apollo         ///////////////////// */}
+      {/* ////////////////////////////////        ZOMATO        ///////////////////// */}
       <div class="container">
         <div class="card">
           <div class="box">
@@ -37,11 +37,11 @@ const ProductList = () => {
               </div>
 
               <h3>Zomoto Clone</h3>
-              <p style={{textAlign:"left"}}> Zomato is Food Website provides food serveice from nearby restaurants.
+              <p style={{textAlign:"left" ,fontSize:"14px"}}>Zomato is Food Website provides food service by taking food from nearby restaurants.
                 <br /><br />
-              Tech Stack: React.js | HTML | CSS | Javascript
+                <span style={{textDecoration:"underline"}}>Tech Stack: </span>React.js | Javascript | HTML | CSS 
                 <br /> <br />
-               Areas of Responsibilty: I have built a single main page with all functionality related to the data using Axios on JSON server.
+               <span style={{textDecoration:"underline"}}>Areas of Responsibilty</span>: I have built a single main page with all functionality related to the data using Axios on JSON server.
                It includes searching with debounce , sorting, filtering, pagination & add new restuarant details in server data such kind of functionalities.
                <br /><br />
              
@@ -57,7 +57,7 @@ const ProductList = () => {
                 </a>
                 <a
                   class="one"
-                  href="/"
+                  href="https://eloquent-lamington-b5963d.netlify.app/"
                 >
                   <FaPlay /> Live Link
                 </a>
@@ -76,7 +76,7 @@ const ProductList = () => {
         </div>
 
 
-        {/* ////////////////////////////////         Fitmeals         ///////////////////// */}
+        {/* ////////////////////////////////        APOLLO         ///////////////////// */}
         <div class="card">
           <div class="box">
             <div class="content">
@@ -89,11 +89,11 @@ const ProductList = () => {
                 />
               </div>
 
-              <h3>Applo 24/7 Clone</h3>
+              <h3>Apollo 24/7 Clone</h3>
               <p id="hoverwhite" style={{fontSize:"14px",textAlign:"left"}}>It has emerged as Asia’s foremost integrated healthcare services provider including Hospitals, Pharmacies, Primary Care & Diagnostic Clinics and several retail health models. <br /> <br />
-                      Tech Stack: REACT.js | Javascript | HTML | CSS<br /> <br />
-                      Areas of responsibility:
-                      Built web pages and integrated it with the frontend.
+              <span style={{textDecoration:"underline"}}>Tech Stack: </span>React.js | Javascript | HTML | CSS<br /> <br />
+              <span style={{textDecoration:"underline"}}>Areas of Responsibilty</span>
+                      :Built web pages and integrated it with the frontend.
                       All the pages,we have built are responsive to the user
                       Developed Doctor,Pharmacy main pages & login with OTP verification with the user information
                     <br /><br />
@@ -137,12 +137,12 @@ const ProductList = () => {
               </div>
 
               <h3>Coursera Clone</h3>
-              <p style={{textAlign:"left"}}>
+              <p style={{textAlign:"left",fontSize:"14px"}}>
               A Coursera is online course certification platform for the developers
               <br /><br />
-              Tech Stack: Javascript | HTML | CSS
+              <span style={{textDecoration:"underline"}}>Tech Stack: </span> Javascript | HTML | CSS
               <br /><br />
-              Areas of responsibility:
+              <span style={{textDecoration:"underline"}}>Areas of Responsibilty</span>:
               Built a responsive with the frontend
               Created our own API with number of courses
               Developed the Home and Tariff page. 
@@ -191,9 +191,9 @@ const ProductList = () => {
               </div>
 
               <h3 style={{marginTop:'-10px'}}>FitMeal Clone</h3>
-              <p style={{fontSize:"14px",textAlign:"left"}}>A Fitmeal website clone which is a food product website <br /> <br />
-                      Tech Stack: HTML | CSS | Javascript | <br /> <br />
-                      Areas of responsibility:
+              <p id="hoverwhite" style={{fontSize:"14px",textAlign:"left"}}>A Fitmeal website clone which is a food product website <br /> <br />
+              <span style={{textDecoration:"underline"}}>Tech Stack: </span>Javascript | HTML | CSS   <br /> <br />
+              <span style={{textDecoration:"underline"}}>Areas of Responsibilty</span>:
                       Built web pages and integrated it with the frontend.
                       All the pages,we have built are responsive to the user
                       Developed Home,Meal-plans,Health coaching,Products pages

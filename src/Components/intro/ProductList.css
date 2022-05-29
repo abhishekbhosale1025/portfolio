@@ -132,8 +132,6 @@
   margin-top: 0px;
 }
 .container .card:hover .box .content h3 {
-  font-size: 1.8em;
-  color: black;
   z-index: 1;
   margin-top: 10px;
   transition: 0.5s;
@@ -145,7 +143,7 @@
 }
 
 .container .card:hover .box .content div p {
-  color: white;
+  color: rgb(187, 32, 32);
 }
 
 .container .card .box .content div img {
