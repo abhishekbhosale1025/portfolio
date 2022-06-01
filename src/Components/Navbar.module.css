@@ -7,10 +7,13 @@ a{
     text-decoration: none;
 }
 
-
-.logo img{
-    width: 90px;
+.ablogo{
+	width:10px ;
+	height:10px ;
 }
+
+
+
 
 
 nav{
@@ -71,4 +74,94 @@ nav ul li a:hover{
 nav .menu-btn,
 .menu-icon{
 		display:none;
+	}
+
+	.ablogo {
+		width:60px ;
+		height: 60px ;
+	}
+
+	@media all and (max-width: 399px) and (min-width: 100px)  {
+
+		nav{
+
+			background-color:rgb(32,33,36);
+			width:99% ;
+			margin-left: 0px;
+		}
+		.menu {
+			margin-left: -200px;
+		}
+		nav ul li a{
+			font-family: 'Lato';
+			height:20px;
+			line-height: 43px;
+			margin: 2px;
+			padding: 0px 2px;
+		
+			display: flex;
+			align-items: center;
+			font-size: 0.4rem;
+			text-transform: uppercase;
+			font-weight: 500;
+			color:#ffffff;
+			letter-spacing: 1px;
+			border-radius: 3px;
+			transition: 0.2s ease-in-out;
+		}
+		nav ul li a:hover{
+			background-color: skyblue;
+			color:#3a0202;
+			box-shadow: 5px 10px 30px rgba(95, 95, 94, 0.336);
+			transition: all ease 0.4s;
+		
+		}
+
+		.ablogo{
+			width:35px ;
+			height:35px ;
+			margin-left: -60px;
+		}
+	}
+
+
+	@media all and (max-width: 600px) and (min-width: 400px)  {
+
+		nav{
+
+			background-color:rgb(32,33,36);
+			width:100% ;
+		}
+		.menu {
+			margin-left: -150px;
+		}
+		nav ul li a{
+			font-family: 'Lato';
+			height:20px;
+			line-height: 43px;
+			margin: 2px;
+			padding: 0px 2px;
+		
+			display: flex;
+			align-items: center;
+			font-size: 0.5rem;
+			text-transform: uppercase;
+			font-weight: 500;
+			color:#ffffff;
+			letter-spacing: 1px;
+			border-radius: 3px;
+			transition: 0.2s ease-in-out;
+		}
+		nav ul li a:hover{
+			background-color: skyblue;
+			color:#3a0202;
+			box-shadow: 5px 10px 30px rgba(95, 95, 94, 0.336);
+			transition: all ease 0.4s;
+		
+		}
+
+		.ablogo{
+			width:35px ;
+			height:35px ;
+		}
 	}

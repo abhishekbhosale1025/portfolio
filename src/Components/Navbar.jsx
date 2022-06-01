@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 // import logo from "./img/logo.png"
-import "./Navbar.module.css"
+import styles from  "./Navbar.module.css"
 import {Link} from 'react-scroll'
 const Navbar = () => {
 
@@ -17,18 +17,18 @@ const Navbar = () => {
 
     window.addEventListener('scroll',changeBackground)
     return (
-    <nav className={nav ? "nav active" : "nav"}>
-        <Link to= "main" className='logo'smooth={true} duration={1000}>
+    <nav className={nav}>
+        <Link to= "main" smooth={true} duration={1000}>
            {/* <h2 style={{padding:"20px",color:"skyblue"}}>Abhishek</h2> */}
-           <img width='60px' height='60px' src="https://image.similarpng.com/very-thumbnail/2021/09/AB-abstract-logo-design-on-transparent-background-PNG.png" alt="" />
+           <img className={styles.ablogo} src="https://image.similarpng.com/very-thumbnail/2021/09/AB-abstract-logo-design-on-transparent-background-PNG.png" alt="" />
         </Link>
         
-        <ul className='menu'>
-            <li><Link to="main" smooth={true} duration={900}>Introduction</Link></li>
-            <li><Link to="about" smooth={true} duration={1000}>About</Link></li>
-            <li><Link to="skills" smooth={true} duration={1000}>skills</Link></li>
-            <li><Link to="projects" smooth={true} duration={1000}>Projects</Link></li>
-            <li><Link to="contact" smooth={true} duration={1000}>Contact</Link></li>
+        <ul className={styles.menu}>
+            <li><Link to="main" style={{cursor:"pointer"}} smooth={true} duration={900}>Introduction</Link></li>
+            <li><Link to="about" style={{cursor:"pointer"}} smooth={true} duration={1000}>About</Link></li>
+            <li><Link to="skills" style={{cursor:"pointer"}} smooth={true} duration={1000}>skills</Link></li>
+            <li><Link to="projects" style={{cursor:"pointer"}} smooth={true} duration={1000}>Projects</Link></li>
+            <li><Link to="contact" style={{cursor:"pointer"}} smooth={true} duration={1000}>Contact</Link></li>
         </ul>
     </nav>
   )

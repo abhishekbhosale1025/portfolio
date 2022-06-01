@@ -49,26 +49,25 @@ const ProductList = () => {
               </p>
 
                {/* ///////////////////// */}
+               <div
+              id='buttonnn'
+              >
                <a
                   class="one"
+                  target = '_blank'
                   href="https://github.com/masai-course/abhishek_fw16_486/tree/master/RCT-121/sprint-1/day-4/assignments/RestaurantwithAxios"
                 >
                   <FaGithub /> Github
                 </a>
                 <a
+                  target = '_blank'
                   class="one"
                   href="https://eloquent-lamington-b5963d.netlify.app/"
                 >
                   <FaPlay /> Live Link
                 </a>
              
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "spacebetween",
-                  marginTop: "10px",
-                }}
-              >
+            
                
               </div>
             </div>
@@ -78,8 +77,8 @@ const ProductList = () => {
 
         {/* ////////////////////////////////        APOLLO         ///////////////////// */}
         <div class="card">
-          <div class="box">
-            <div class="content">
+          <div class="box" id="boxx">
+            <div class="content" >
               <h2>01</h2>
               <div>
                 {" "}
@@ -102,17 +101,12 @@ const ProductList = () => {
 
 
              
-              <div
-                style={{
-                  display: "flex",
-                  justifycontent: "spacebetween",
-                  marginTop: "10px",
-                }}
-              >
-                <a class="one" href="https://github.com/SAlimAbbas/ApolloClone">
+              <div  id='buttonnn'>
+              
+                <a   target = '_blank' class="one" href="https://github.com/SAlimAbbas/ApolloClone">
                       <FaGithub /> Github
                     </a>
-                    <a class="one" href="https://dapper-chebakia-d4e762.netlify.app/">
+                    <a   target = '_blank' class="one" href="https://dapper-chebakia-d4e762.netlify.app/">
                       <FaPlay /> Live Link
                     </a>
               
@@ -154,19 +148,16 @@ const ProductList = () => {
            
               
               <div
-                style={{
-                  display: "flex",
-                  justifycontent: "spacebetween",
-                  marginTop: "10px",
-                }}
+               id='buttonnn'
               >
                 <a
+                  target = '_blank'
                   class="one"
                   href="https://github.com/Sharadu16/Courseera-clone"
                 >
                   <FaGithub /> Github
                 </a>
-                <a class="one" href="https://inquisitive-cassata-5ce846.netlify.app/">
+                <a   target = '_blank' class="one" href="https://inquisitive-cassata-5ce846.netlify.app/">
                   <FaPlay /> Live Link
                 </a>
           
@@ -204,19 +195,16 @@ const ProductList = () => {
 
 
               <div
-                style={{
-                  display: "flex",
-                  justifycontent: "spacebetween",
-                  marginTop: "10px",
-                }}
+                id='buttonnn'
               >
                 <a
                   class="one"
                   href="https://github.com/KalashThakur/fitmeals.git"
+                  target = '_blank'
                 >
                   <FaGithub /> Github
                 </a>
-                <a class="one" href="https://cloneoffitmeals.netlify.app/">
+                <a   target = '_blank' class="one" href="https://cloneoffitmeals.netlify.app/">
                   <FaPlay /> Live Link
                 </a>
               </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const About = () => {
@@ -44,6 +44,7 @@ const About = () => {
               {" "}
               <a
                 style={{ color: "black" }}
+                target = '_blank'
                 href="https://github.com/abhishekbhosale1025"
               >
                 {" "}
@@ -52,7 +53,7 @@ const About = () => {
             </h2>
             <h2 style={{ fontSize: "32px" }}>
               {" "}
-              <a style={{ color: "black" }} href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=abhishekbhosale1025@gamil.com&hl=en-GB">
+              <a   target = '_blank' style={{ color: "black" }} href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=abhishekbhosale1025@gamil.com&hl=en-GB">
                 {" "}
                  <MdEmail />
               </a>
@@ -60,10 +61,11 @@ const About = () => {
             <h2 style={{ fontSize: "32px" }}>
               {" "}
               <a
+                target = '_blank'
                 style={{ color: "#0077b5" }}
                 href="https://www.linkedin.com/in/abhishek-bhosale-600921117/"
               >
-                <img width='30px' src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" />
+                <img width='30px' alt='' src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" />
               </a>{" "}
             </h2>
             {/* <FaLinkedin/> */}

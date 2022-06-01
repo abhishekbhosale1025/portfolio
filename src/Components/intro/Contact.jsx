@@ -59,10 +59,8 @@ const Contact = () => {
            
           </p> */}
           <form action="" ref={formRef} onSubmit={handleSubmit}>
-            <h1 style={{  fontWeight:"800",
-                color:"#4070f4",
-                textDecoration:"underline"}}
-    >Contact</h1>
+            <h1 id='contacttt'
+            >Contact</h1>
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input type="text" placeholder="Email" name="user_email" />

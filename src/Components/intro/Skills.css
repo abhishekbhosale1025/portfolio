@@ -82,7 +82,7 @@
     margin-left: 10%;
   }
   .skills > div > h1 {
-    padding-left: 0px;
+    padding-left: -200px;
   }
   .h1skills{
     /* text-align: center; */
@@ -90,3 +90,22 @@
      padding-bottom: 40px
    }
 }
+
+@media all and (max-width: 399px) and (min-width: 100px)
+{
+  .skills {
+    /* border: 1px solid red; */
+    padding: 0px;
+    margin-bottom: -100px;
+   
+  }
+
+  /* #skillpage {
+    height: 120vh;
+    width: 60vw;
+    margin: auto;
+    background-color: aqua;
+  } */
+}
+
+

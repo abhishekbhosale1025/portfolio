@@ -47,6 +47,11 @@
 .c-desc {
   font-weight: 200;
 }
+#contacttt {
+  font-Weight:800;
+  color:#4070f4;
+  text-Decoration:underline;
+}
 form {
   margin-top: 20px;
   justify-content: center;
@@ -150,5 +155,24 @@ form > button {
   }
   .c-right>h1{
     padding-left: 30px;
+  }
+}
+
+@media all and (max-width: 399px) and (min-width: 100px){
+
+  .c-left{
+    margin-left: -50px;
+  }
+
+  .c-title{
+    margin-left: 65px;
+    text-align: center;
+  }
+
+  #contacttt {
+      font-Weight:800;
+      color:#4070f4;
+      text-Decoration:underline;
+      margin-left: -30px;
   }
 }
