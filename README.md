@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **React.js**
 
-- 👨‍💻 All of my projects are available at <a target='_blank' href='https://abhishek-bhosale-portfolio.netlify.app/'>Portfolio</a>
+- 👨‍💻 All of my projects are available at <a target='blank' href='https://abhishek-bhosale-portfolio.netlify.app/'>Portfolio</a>
 
 - 📝 I regularly write articles on <a target='blank' href='https://medium.com/@abhishekbhosale1025'>Medium</a>
 
@@ -22,7 +22,7 @@
 
 <a href="https://www.linkedin.com/in/abhishek-bhosale-600921117/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="md shakir hussain" height="30" width="40" /></a>
 
-<a href="https://medium.com/@abhishekbhosale1025" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="mdshakirhussan" height="30" width="40" /></a>
+<a href="https://medium.com/@abhishekbhosale1025" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="abhishekbhosale" height="30" width="40" /></a>
 
 
 </p>
