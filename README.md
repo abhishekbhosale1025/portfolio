@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at <a target='_blank' href='https://abhishek-bhosale-portfolio.netlify.app/'>Portfolio</a>
 
-- 📝 I regularly write articles on <a target='_blank' href='https://medium.com/@abhishekbhosale1025'>Medium</a>
+- 📝 I regularly write articles on <a target='blank' href='https://medium.com/@abhishekbhosale1025'>Medium</a>
 
 - 💬 Ask me about **Reactjs,Javascript,Data-Structures & Algorithm**
 
