@@ -71,7 +71,7 @@ const Contact = () => {
               name="message"
             />
             <br />
-            <button>Submit</button>
+            <button id="contactBtn">Submit</button>
             {done && "Thank You for Contacting me..."}
           </form>
         </div>

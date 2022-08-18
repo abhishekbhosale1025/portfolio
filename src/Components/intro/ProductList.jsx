@@ -20,32 +20,30 @@ const ProductList = () => {
        Projects
       </h2>
 
-      {/* ////////////////////////////////        ZOMATO        ///////////////////// */}
+      {/* ////////////////////////////////        Netmeds        ///////////////////// */}
       <div class="container">
         <div class="card">
           <div class="box">
-            <div class="content">
+            <div class="content" style={{paddingTop:"30px"}}>
               {/* <h2>01</h2>
                */}
 
                 <div>
                 {" "}
                 <img
-                  src="/Tomoto11.png"
+                  src="/netmeds.png"
                   alt=""
                 />
               </div>
 
-              <h3>Zomoto Clone</h3>
-              <p style={{textAlign:"left" ,fontSize:"14px"}}>Zomato is Food Website provides food service by taking food from nearby restaurants.
+              <h3>Netmeds Clone</h3>
+              <p style={{textAlign:"left" ,fontSize:"14px"}}>Netmeds.com, India Ki Pharmacy, is one of India’s most trusted pharmacies, with over 100 years’ experience in dispensing quality medicines.
                 <br /><br />
-                <span style={{textDecoration:"underline"}}>Tech Stack: </span>React.js | Javascript | HTML | CSS 
+                <span style={{textDecoration:"underline"}}>Tech Stack: </span>React.js | Redux | Javascript | HTML | CSS 
                 <br /> <br />
-               <span style={{textDecoration:"underline"}}>Areas of Responsibilty</span>: I have built a single main page with all functionality related to the data using Axios on JSON server.
-               It includes searching with debounce , sorting, filtering, pagination & add new restuarant details in server data such kind of functionalities.
+               <span style={{textDecoration:"underline"}}>Areas of Responsibilty</span>: In this project I worked on the main functionalities of this Pharmacitical E-commerce website starting with Sign-up to till the buying a products from the website.I used React-Redux,Javascript & Chakra UI for building the pages.And I used JSON server for the database. 
                <br /><br />
-             
-               Created this project individually in a single day .
+               Created this project individually in 5-days.
               </p>
 
                {/* ///////////////////// */}
@@ -56,15 +54,15 @@ const ProductList = () => {
                   class="one"
                   target = '_blank'
                   rel="noreferrer"
-                  href="https://github.com/masai-course/abhishek_fw16_486/tree/master/RCT-121/sprint-1/day-4/assignments/RestaurantwithAxios"
+                  href="https://github.com/abhishekbhosale1025/NetmedsCloneAB"
                 >
-                  <FaGithub /> Github
+                <FaGithub /> Github
                 </a>
                 <a
                   target = '_blank'
                   rel="noreferrer"
                   class="one"
-                  href="https://eloquent-lamington-b5963d.netlify.app/"
+                  href="https://netmeds-individual-clone-project.netlify.app/"
                 >
                   <FaPlay /> Live Link
                 </a>
@@ -74,35 +72,33 @@ const ProductList = () => {
         </div>
 
 
-        {/* ////////////////////////////////        APOLLO         ///////////////////// */}
+        {/* ////////////////////////////////        Monster         ///////////////////// */}
         <div class="card">
           <div class="box" id="boxx">
-            <div class="content" >
+            <div class="content" style={{paddingTop:"30px"}} >
               <h2>01</h2>
               <div>
                 {" "}
                 <img
-                  src="/Apollo.png"
+                  src="/MONSTER.png"
                   alt=""
                 />
               </div>
 
-              <h3>Apollo 24/7 Clone</h3>
-              <p id="hoverwhite" style={{fontSize:"14px",textAlign:"left"}}>It has emerged as Asia’s foremost integrated healthcare services provider including Hospitals, Pharmacies, Primary Care & Diagnostic Clinics and several retail health models. <br /> <br />
-              <span style={{textDecoration:"underline"}}>Tech Stack: </span>React.js | Javascript | HTML | CSS<br /> <br />
+              <h3>Monster India Clone</h3>
+              <p id="hoverwhite" style={{fontSize:"14px",textAlign:"left"}}>Monster India, India’s leading online career and recruitment resource with its cutting edge technology provides relevant profiles to employers<br /> <br />
+              <span style={{textDecoration:"underline"}}>Tech Stack: </span>React.js | Redux | Javascript | HTML | CSS<br /> <br />
               <span style={{textDecoration:"underline"}}>Areas of Responsibilty</span>
-                      :Built web pages and integrated it with the frontend.
-                      All the pages,we have built are responsive to the user
-                      Developed Doctor,Pharmacy main pages & login with OTP verification with the user information
+                      : In this project,we have covered all main functionalities related to the job search & we have used react-redux with Chakra UI for building the pages.
                     <br /><br />
                     A collaborative project built by a team of 5, executed in 5 days.
         </p>
 
               <div  id='buttonnn'>
-                    <a   rel="noreferrer" target = '_blank' class="one" href="https://github.com/SAlimAbbas/ApolloClone">
+                    <a   rel="noreferrer" target = '_blank' class="one" href="https://github.com/abhishekbhosale1025/MonsterIndiaClone">
                       <FaGithub /> Github
                     </a>
-                    <a  rel="noreferrer" target = '_blank' class="one" href="https://dapper-chebakia-d4e762.netlify.app/">
+                    <a  rel="noreferrer" target = '_blank' class="one" href="https://stellular-kleicha-361f06.netlify.app/">
                       <FaPlay /> Live Link
                     </a>
               </div>
@@ -115,7 +111,7 @@ const ProductList = () => {
         {/* ////////////////////////////////        Zomato        ///////////////////// */}
         <div class="card">
           <div class="box">
-            <div class="content">
+            <div class="content" style={{paddingTop:"30px"}}>
               {/* <h2>01</h2> */}
               <div>
                 {" "}
@@ -153,11 +149,9 @@ const ProductList = () => {
                 >
                   <FaGithub /> Github
                 </a>
-                <a  rel="noreferrer"  target = '_blank' class="one" href="https://inquisitive-cassata-5ce846.netlify.app/">
+                <a  rel="noreferrer"  target = '_blank' class="one" href="https://coursera-clone-project.netlify.app/">
                   <FaPlay /> Live Link
                 </a>
-          
-               
               </div>
             </div>
           </div>
@@ -167,7 +161,7 @@ const ProductList = () => {
         {/* ////////////////////////////////         Coursera         ///////////////////// */}
         <div class="card">
           <div class="box">
-            <div class="content">
+            <div class="content" style={{paddingTop:"30px"}}>
               {/* <h2>04</h2> */}
               <div>
                 {" "}
