@@ -102,14 +102,12 @@ const ProductList = () => {
 
              
               <div  id='buttonnn'>
-              
-                <a   target = '_blank' class="one" href="https://github.com/SAlimAbbas/ApolloClone">
+                    <a  target = '_blank' class="one" href="https://github.com/SAlimAbbas/ApolloClone">
                       <FaGithub /> Github
                     </a>
-                    <a   target = '_blank' class="one" href="https://dapper-chebakia-d4e762.netlify.app/">
+                    <a  target = '_blank' class="one" href="https://dapper-chebakia-d4e762.netlify.app/">
                       <FaPlay /> Live Link
                     </a>
-              
               </div>
             </div>
           </div>
