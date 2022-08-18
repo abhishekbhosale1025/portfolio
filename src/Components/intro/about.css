@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    /* background-color: red; */
+    background-color: red;
     height: 100%;
 }
 .a-right{
@@ -79,7 +79,6 @@
 }
 .a-award-texts{
     width: 70%;
-
     margin-top: 20px;
 }
 .a-award-title{
@@ -132,5 +131,10 @@
             .a-desc{
                 font-weight: 500;
                 font-size: 14px;
+            }
+
+            #about{
+                /* background-color: #555; */
+                margin-top: 450px;
             }
         }

@@ -64,15 +64,15 @@
   padding:-200px;
 }
 .i-img {
-  width: 60%;
-  height: 60%;
+  width: 425px;
+  height: 455px;
   /* object-fit: cover; */
-  margin-left: 20%;
+  margin-left: 15%;
   border-radius: 50%;
   margin-top: 15%;
   display: flex;
   justify-content: center;
-  padding:4px;
+  padding:10px;
   border: 3px solid white;
   
 
@@ -308,13 +308,13 @@
     width: 100%;
     top: 0;
     right: 0;
-    margin-top: 60px;
+    margin-top: -20px;
     position: absolute;
     margin-left: 0px;
+    padding-top: 10px;
     /* background-color: white; */
     clip-path: inset(0 0 0 0);
 
     /* clip-path: polygon(26% 0, 99% 0, 100% 60%, 100% 100%, 23% 91%, 0% 60%, 27% 0); */
-   
   }
 }

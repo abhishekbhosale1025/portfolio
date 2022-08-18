@@ -100,12 +100,13 @@
    
   }
 
-  /* #skillpage {
-    height: 120vh;
+  #skillpage {
+    /* height: 120vh;
     width: 60vw;
-    margin: auto;
-    background-color: aqua;
-  } */
+    margin: auto; */
+    margin-top: 300px;
+    /* background-color: aqua; */
+  }
 }
 
 

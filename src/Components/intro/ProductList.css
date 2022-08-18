@@ -191,14 +191,14 @@
 
   #projects {
    
-    /* padding-top: 20px; */
+    margin-top: 400px;
     justify-content: center;
     align-items: center;
     min-height: 200vh;
   }
 
   .container .card .box .content {
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
    
   }
@@ -222,7 +222,7 @@
   }
   .container .card:hover .box .content h3 {
     z-index: 1;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     transition: 0.5s;
     color:white;
   }
@@ -280,7 +280,7 @@
       5px 5px 5px rgba(0, 0, 0, 0.13), -5px -5px 5px rgba(255, 255, 255, 0.5);
   
     border-radius: 15px;
-    margin: 30px;
+    margin: 10px;
   }
 
   .one {

@@ -28,7 +28,7 @@ const ProductList = () => {
               {/* <h2>01</h2>
                */}
 
-<div>
+                <div>
                 {" "}
                 <img
                   src="/Tomoto11.png"
@@ -55,20 +55,19 @@ const ProductList = () => {
                <a
                   class="one"
                   target = '_blank'
+                  rel="noreferrer"
                   href="https://github.com/masai-course/abhishek_fw16_486/tree/master/RCT-121/sprint-1/day-4/assignments/RestaurantwithAxios"
                 >
                   <FaGithub /> Github
                 </a>
                 <a
                   target = '_blank'
+                  rel="noreferrer"
                   class="one"
                   href="https://eloquent-lamington-b5963d.netlify.app/"
                 >
                   <FaPlay /> Live Link
                 </a>
-             
-            
-               
               </div>
             </div>
           </div>
@@ -99,13 +98,11 @@ const ProductList = () => {
                     A collaborative project built by a team of 5, executed in 5 days.
         </p>
 
-
-             
               <div  id='buttonnn'>
-                    <a  target = '_blank' class="one" href="https://github.com/SAlimAbbas/ApolloClone">
+                    <a   rel="noreferrer" target = '_blank' class="one" href="https://github.com/SAlimAbbas/ApolloClone">
                       <FaGithub /> Github
                     </a>
-                    <a  target = '_blank' class="one" href="https://dapper-chebakia-d4e762.netlify.app/">
+                    <a  rel="noreferrer" target = '_blank' class="one" href="https://dapper-chebakia-d4e762.netlify.app/">
                       <FaPlay /> Live Link
                     </a>
               </div>
@@ -150,12 +147,13 @@ const ProductList = () => {
               >
                 <a
                   target = '_blank'
+                  rel="noreferrer"
                   class="one"
                   href="https://github.com/Sharadu16/Courseera-clone"
                 >
                   <FaGithub /> Github
                 </a>
-                <a   target = '_blank' class="one" href="https://inquisitive-cassata-5ce846.netlify.app/">
+                <a  rel="noreferrer"  target = '_blank' class="one" href="https://inquisitive-cassata-5ce846.netlify.app/">
                   <FaPlay /> Live Link
                 </a>
           
@@ -196,13 +194,14 @@ const ProductList = () => {
                 id='buttonnn'
               >
                 <a
+                 rel="noreferrer"
                   class="one"
                   href="https://github.com/KalashThakur/fitmeals.git"
                   target = '_blank'
                 >
                   <FaGithub /> Github
                 </a>
-                <a   target = '_blank' class="one" href="https://cloneoffitmeals.netlify.app/">
+                <a  rel="noreferrer"  target = '_blank' class="one" href="https://cloneoffitmeals.netlify.app/">
                   <FaPlay /> Live Link
                 </a>
               </div>
