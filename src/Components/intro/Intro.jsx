@@ -6,8 +6,19 @@ const Intro = () => {
     <div className="i" id="main">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h1 style={{ display: "flex", fontSize: "50px",marginBottom:"-40px",marginTop:"15px" }}>Hello 👋</h1>
-          <h1   className="i-name">I'm <span style={{color:'#4070f4'}}>Abhishek</span></h1>
+          <h1
+            style={{
+              display: "flex",
+              fontSize: "50px",
+              marginBottom: "-40px",
+              marginTop: "15px",
+            }}
+          >
+            Hello 👋
+          </h1>
+          <h1 className="i-name">
+            I'm <span style={{ color: "#4070f4" }}>Abhishek</span>
+          </h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web developer</div>
@@ -20,13 +31,30 @@ const Intro = () => {
           {/* <p className="i-desc">
           Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer.
           </p> */}
-         <a  rel="noreferrer" target = '_blank' href="https://drive.google.com/file/d/11dpSiAe1iyMNXTPtq2BKfc_OB8ac9S_T/view?usp=sharing"> <button style={{cursor:"pointer",background:"#4070f4",color:"white",border:"none"}} id="btnresume">Resume</button></a>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://drive.google.com/file/d/11dpSiAe1iyMNXTPtq2BKfc_OB8ac9S_T/view?usp=sharing"
+          >
+            {" "}
+            <button
+              style={{
+                cursor: "pointer",
+                background: "#4070f4",
+                color: "white",
+                border: "none",
+              }}
+              id="btnresume"
+            >
+              Resume
+            </button>
+          </a>
         </div>
       </div>
       <div className="i-right">
         <div className="i-bg">
           {" "}
-          <img src='/AAB.jpg' alt="AB" className="i-img" />
+          <img src="/AAB.jpg" alt="AB" className="i-img" />
         </div>
       </div>
     </div>

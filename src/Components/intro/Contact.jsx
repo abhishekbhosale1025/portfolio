@@ -46,7 +46,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={email} alt="" className="c-icon" />
-             abhishekbhosale1025@gmail.com
+              abhishekbhosale1025@gmail.com
             </div>
           </div>
         </div>
@@ -59,8 +59,7 @@ const Contact = () => {
            
           </p> */}
           <form action="" ref={formRef} onSubmit={handleSubmit}>
-            <h1 id='contacttt'
-            >Contact</h1>
+            <h1 id="contacttt">Contact</h1>
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input type="text" placeholder="Email" name="user_email" />
@@ -75,7 +74,6 @@ const Contact = () => {
             {done && "Thank You for Contacting me..."}
           </form>
         </div>
-
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ export const Skills = () => {
     <div id="skillpage">
       <div className="skills">
         <div>
-          <h1 className="h1skills" >Skills</h1>
+          <h1 className="h1skills">Skills</h1>
         </div>
         <div>
           <div>

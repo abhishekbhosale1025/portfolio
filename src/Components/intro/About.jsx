@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 const About = () => {
   return (
-    <div id="about" >
+    <div id="about">
       <div className="a">
         {/* <div className="a-left">
           <div className="a-card bg"></div>
@@ -19,12 +19,18 @@ const About = () => {
           </div>
         </div> */}
         <div className="a-right">
-          <h1 className="a-title" >ABOUT ME</h1>
+          <h1 className="a-title">ABOUT ME</h1>
           <p className="a-sub">Hello I'm Abhishek Bhosale</p>
           <p className="a-desc">
-          Whatever I do,learn or develop,It is with the passion of completing it successfully.No matter what hurdles & challenges,I personally challenge myself to get things done and that gives me immense pleasure.It is because of this feeling of satisfaction that keeps me going. And as an Aspiring Full Stack Developer I am  seeking for a role wherein I can directly make an impact on the company's growth as well as my own Career.
+            Whatever I do,learn or develop,It is with the passion of completing
+            it successfully.No matter what hurdles & challenges,I personally
+            challenge myself to get things done and that gives me immense
+            pleasure.It is because of this feeling of satisfaction that keeps me
+            going. And as an Aspiring Full Stack Developer I am seeking for a
+            role wherein I can directly make an impact on the company's growth
+            as well as my own Career.
           </p>
-          <p  className="a-desc">Drop a mail @ abhishekbhosale1025@gmail.com </p>
+          <p className="a-desc">Drop a mail @ abhishekbhosale1025@gmail.com </p>
 
           <div
             id="a-right-div1"
@@ -44,7 +50,7 @@ const About = () => {
               {" "}
               <a
                 style={{ color: "black" }}
-                target = '_blank'
+                target="_blank"
                 rel="noreferrer"
                 href="https://github.com/abhishekbhosale1025"
               >
@@ -54,20 +60,29 @@ const About = () => {
             </h2>
             <h2 style={{ fontSize: "32px" }}>
               {" "}
-              <a  rel="noreferrer"  target = '_blank' style={{ color: "black" }} href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=abhishekbhosale1025@gamil.com&hl=en-GB">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                style={{ color: "black" }}
+                href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=abhishekbhosale1025@gamil.com&hl=en-GB"
+              >
                 {" "}
-                 <MdEmail />
+                <MdEmail />
               </a>
             </h2>
             <h2 style={{ fontSize: "32px" }}>
               {" "}
               <a
-               rel="noreferrer"
-                target = '_blank'
+                rel="noreferrer"
+                target="_blank"
                 style={{ color: "#0077b5" }}
                 href="https://www.linkedin.com/in/abhishek-bhosale-600921117/"
               >
-                <img width='30px' alt='' src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" />
+                <img
+                  width="30px"
+                  alt=""
+                  src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png"
+                />
               </a>{" "}
             </h2>
             {/* <FaLinkedin/> */}
