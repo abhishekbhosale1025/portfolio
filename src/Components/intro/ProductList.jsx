@@ -158,7 +158,7 @@ const ProductList = () => {
         </div>
 
 
-        {/* ////////////////////////////////         Coursera         ///////////////////// */}
+        {/* ////////////////////////////////         FITMEAL         ///////////////////// */}
         <div class="card">
           <div class="box">
             <div class="content" style={{paddingTop:"30px"}}>
@@ -190,7 +190,7 @@ const ProductList = () => {
                 <a
                  rel="noreferrer"
                   class="one"
-                  href="https://github.com/KalashThakur/fitmeals.git"
+                  href="https://github.com/abhishekbhosale1025/fitmeals?organization=abhishekbhosale1025&organization=abhishekbhosale1025"
                   target = '_blank'
                 >
                   <FaGithub /> Github

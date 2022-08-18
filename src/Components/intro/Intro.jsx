@@ -20,7 +20,7 @@ const Intro = () => {
           {/* <p className="i-desc">
           Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer.
           </p> */}
-         <a  rel="noreferrer" target = '_blank' href="https://drive.google.com/file/d/10hmZjj_8caclKCf4WEP0CoUM2mL9mTcA/view?usp=sharing"> <button style={{cursor:"pointer",background:"#4070f4",color:"white",border:"none"}} id="btnresume">Resume</button></a>
+         <a  rel="noreferrer" target = '_blank' href="https://drive.google.com/file/d/11dpSiAe1iyMNXTPtq2BKfc_OB8ac9S_T/view?usp=sharing"> <button style={{cursor:"pointer",background:"#4070f4",color:"white",border:"none"}} id="btnresume">Resume</button></a>
         </div>
       </div>
       <div className="i-right">
