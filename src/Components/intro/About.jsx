@@ -20,7 +20,7 @@ const About = () => {
         </div> */}
         <div className="a-right">
           <h1 className="a-title">ABOUT ME</h1>
-          <p className="a-sub">Hello I'm Abhishek Bhosale</p>
+          {/* <p className="a-sub">Hello I'm Abhishek Bhosale</p> */}
           <p className="a-desc">
             Whatever I do,learn or develop,It is with the passion of completing
             it successfully.No matter what hurdles & challenges,I personally

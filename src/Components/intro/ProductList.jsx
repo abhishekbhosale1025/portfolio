@@ -24,28 +24,26 @@ const ProductList = () => {
       <div class="container">
         <div class="card">
           <div class="box">
-            <div class="content" style={{ paddingTop: "30px" }}>
+            <div class="content" style={{ paddingTop: "40px" }}>
               {/* <h2>01</h2>
                */}
 
               <div>
                 {" "}
-                <img src="/netmeds.png" alt="" />
+                <img src="/netmeds.png" height="100px" alt="" />
               </div>
 
               <h3>Netmeds Clone</h3>
-              <p style={{ textAlign: "left", fontSize: "14px" }}>
-                Netmeds.com, India Ki Pharmacy, is one of India’s most trusted
-                pharmacies, with over 100 years’ experience in dispensing
-                quality medicines.
+              <p style={{ textAlign: "left", fontSize: "16px" }}>
+              Netmeds.com, India Ki Pharmacy, is one of India’s most trusted pharmacies, with over 100 years’ experience in dispensing quality medicines.Netmeds.com,help you to look after your own health effortlessly as well as take care of loved ones wherever they may reside in India.
                 <br />
                 <br />
-                <span style={{ textDecoration: "underline" }}>
+                <strong >
                   Tech Stack:{" "}
-                </span>
-                React.js | Redux | Javascript | HTML | CSS
+                </strong>
+                React.js | Redux | Javascript | Chakra UI
                 <br /> <br />
-                <span style={{ textDecoration: "underline" }}>
+                {/* <span >
                   Areas of Responsibilty
                 </span>
                 : In this project I worked on the main functionalities of this
@@ -53,9 +51,9 @@ const ProductList = () => {
                 the buying a products from the website.I used
                 React-Redux,Javascript & Chakra UI for building the pages.And I
                 used JSON server for the database.
-                <br />
-                <br />
-                Created this project individually in 5-days.
+                <br /> */}
+                {/* <br />
+                Created this project individually in 5-days. */}
               </p>
 
               {/* ///////////////////// */}
@@ -85,27 +83,25 @@ const ProductList = () => {
         <div class="card">
           <div class="box" id="boxx">
             <div class="content" style={{ paddingTop: "30px" }}>
-              <h2>01</h2>
+              {/* <h2>01</h2> */}
               <div>
                 {" "}
-                <img src="/MONSTER.png" alt="" />
+                <img src="/MONSTER.png" height={"100%"} alt="" />
               </div>
 
               <h3>Monster India Clone</h3>
               <p
                 id="hoverwhite"
-                style={{ fontSize: "14px", textAlign: "left" }}
+                style={{ fontSize: "16px", textAlign: "left" }}
               >
-                Monster India, India’s leading online career and recruitment
-                resource with its cutting edge technology provides relevant
-                profiles to employers
+               Monster India, India’s leading online career and recruitment resource with its cutting edge technology provides relevant profiles to employers and relevant jobs to jobseekers across industry verticals, experience levels and geographies.
                 <br /> <br />
-                <span style={{ textDecoration: "underline" }}>
+                <strong >
                   Tech Stack:{" "}
-                </span>
+                </strong>
                 React.js | Redux | Javascript | HTML | CSS
-                <br /> <br />
-                <span style={{ textDecoration: "underline" }}>
+                {/* <br /> <br />
+                <span >
                   Areas of Responsibilty
                 </span>
                 : In this project,we have covered all main functionalities
@@ -113,7 +109,7 @@ const ProductList = () => {
                 UI for building the pages.
                 <br />
                 <br />A collaborative project built by a team of 5, executed in
-                5 days.
+                5 days. */}
               </p>
 
               <div id="buttonnn">
@@ -138,36 +134,35 @@ const ProductList = () => {
           </div>
         </div>
 
-        {/* ////////////////////////////////        Zomato        ///////////////////// */}
+        {/* ////////////////////////////////        COURSERA        ///////////////////// */}
         <div class="card">
           <div class="box">
-            <div class="content" style={{ paddingTop: "30px" }}>
+            <div class="content" style={{ marginTop: "30px" }}>
               {/* <h2>01</h2> */}
               <div>
                 {" "}
-                <img src="/Coursera.png" alt="" />
+                <img src="/Coursera.png"  alt="" />
               </div>
 
               <h3>Coursera Clone</h3>
-              <p style={{ textAlign: "left", fontSize: "14px" }}>
-                A Coursera is online course certification platform for the
-                developers
+              <p style={{ textAlign: "left", fontSize: "16px" }}>
+              Coursera is the global online learning platform that offers anyone, anywhere access to online courses and degrees from world-class universities and companies.
                 <br />
                 <br />
-                <span style={{ textDecoration: "underline" }}>
+                <strong >
                   Tech Stack:{" "}
-                </span>{" "}
+                </strong>{" "}
                 Javascript | HTML | CSS
                 <br />
                 <br />
-                <span style={{ textDecoration: "underline" }}>
+                {/* <span >
                   Areas of Responsibilty
                 </span>
                 : Built a responsive with the frontend Created our own API with
                 number of courses Developed the Home and Tariff page.
                 <br />
                 <br />A collaborative project built by a team of 5, executed in
-                5 days.
+                5 days. */}
               </p>
 
               <div id="buttonnn">
@@ -195,25 +190,25 @@ const ProductList = () => {
         {/* ////////////////////////////////         FITMEAL         ///////////////////// */}
         <div class="card">
           <div class="box">
-            <div class="content" style={{ paddingTop: "30px" }}>
+            <div class="content" style={{ paddingTop: "40px" }}>
               {/* <h2>04</h2> */}
               <div>
                 {" "}
                 <img src="/Fitmeal.png" alt="" />
               </div>
 
-              <h3 style={{ marginTop: "-10px" }}>FitMeal Clone</h3>
+              <h3 style={{ marginTop: "30px" }}>FitMeal Clone</h3>
               <p
                 id="hoverwhite"
-                style={{ fontSize: "14px", textAlign: "left" }}
+                style={{ fontSize: "16px", textAlign: "left" }}
               >
-                A Fitmeal website clone which is a food product website <br />{" "}
+                Fitmeal – Healthy Food and Nutrition WordPress Theme created especially for Food Delivery, Healthy Food, Fitness Diet, Organic Food Store, Courier Service Nutritionist, Health Coach, Health Diet, Fitness Meal, Smoothie Bar and Business Lunch Delivery. <br />{" "}
                 <br />
-                <span style={{ textDecoration: "underline" }}>
+                <strong >
                   Tech Stack:{" "}
-                </span>
+                </strong>
                 Javascript | HTML | CSS <br /> <br />
-                <span style={{ textDecoration: "underline" }}>
+                {/* <span >
                   Areas of Responsibilty
                 </span>
                 : Built web pages and integrated it with the frontend. All the
@@ -222,7 +217,7 @@ const ProductList = () => {
                 while doing the payment with the user information
                 <br />
                 <br />A collaborative project built by a team of 6, executed in
-                5 days.
+                5 days. */}
               </p>
 
               <div id="buttonnn">

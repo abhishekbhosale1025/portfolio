@@ -43,6 +43,7 @@ const Intro = () => {
                 background: "#4070f4",
                 color: "white",
                 border: "none",
+              
               }}
               id="btnresume"
             >

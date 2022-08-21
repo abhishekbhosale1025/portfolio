@@ -191,7 +191,7 @@
 
   #projects {
    
-    margin-top: 400px;
+    margin-top: -400px;
     justify-content: center;
     align-items: center;
     min-height: 200vh;

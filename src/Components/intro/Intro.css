@@ -64,8 +64,8 @@
   padding:-200px;
 }
 .i-img {
-  width: 435px;
-  height: 480px;
+  width: 445px;
+  height: 510px;
   /* object-fit: cover; */
   margin-left: 15%;
   border-radius: 50%;
@@ -300,9 +300,11 @@
     height: 100vh;
     display: block;
     margin-bottom: 400px;
-  
-
   }
+#main{
+  margin-top: -100px;
+}
+
   .i-bg {
     height:400px;
     width: 100%;
